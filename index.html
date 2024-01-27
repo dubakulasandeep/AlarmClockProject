@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="AlarmClock.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"  />
+</head>
+<body>
+   <div class="container">
+
+    <!-- alarm inage -->
+
+    <div class="image">
+        <img src="alarm-clock.png" id="alarm-png" alt="">
+      </div>
+      <!-- container to display time -->
+
+    <div id="current-time">
+        <div id="test">time</div>
+        <h1>Alarm clock</h1>
+
+        <!-- form to take the input from users to set the Alarm -->
+        <div class="input">
+            <form action="" class="user-input inputs">
+                <input type="number" min="0" max="23" id="h" placeholder="hh" required class="inputs">
+                <input type="number" min="0" max="59" id="min" placeholder="mm" class="inputs">
+                <input type="number" min="0" max="59" id="sec" placeholder="ss" class="inputs">
+                <!-- <input type="number"  id="AM" placeholder="AM:PM" class="inputs"> -->
+                <br>
+                <div class="btn">
+                    <button class="btn1" type="submit">set-Alalrm</button>
+                    <button class="btn1"  type="reset" onclick="clearAlarm()">reset</button>
+                </div>
+            </form>
+        </div>
+        <hr>
+        <!-- adding alarm list based on taking input from user using javascript -->
+        <h3>Upcoming Alarm</h3>
+        <ul class="set-alarms-list">
+
+        </ul>
+    </div>
+   </div>
+
+
+<script src="AlarmClock.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  body{
+    background-color: cyan;
+  }
+
+  .container {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 31.25em;
+    padding: 3.12em 5em;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 1em;
+    border-radius: 0.5em;
+    margin: 2em;
+  }
+  #alarm-png{
+    width: 6em;
+    margin: 1em 7em;
+  }
+  #deleteButton {
+    background-color:red;
+
+   color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin:5px 2px 5px 180px ;
+    padding: 8px ;
+  }
+  .time-list{
+    list-style:square;
+
+  }
+  h1{
+    text-align: center;
+    color: blue;
+
+  }
+
+
+  .inputs input {
+    width: 3.8em;
+    font-size: 1.3em;
+    border: 1px solid #000000;
+    border-radius: 0.3em;
+    padding: 0.4em 0.2em;
+    text-align: center;
+
+  }
+  
+#test{
+    font-size: 3em;
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+}
+.header{
+    text-align: center;
+
+}
+.input{
+    text-align: center;
+    margin: 1em;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 0.5em;
+    padding: 1em;
+}
+.btn1{
+    background-color: blue;
+    border: none;
+    padding: 0.9em 1.8em;
+    display: block;
+    margin: 20px 10px;
+    border-radius: 8px;
+    color: #ffffff;
+}
+h3{
+    text-align: center;
+    padding: 1em;
+}
